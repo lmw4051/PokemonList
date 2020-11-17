@@ -1,0 +1,28 @@
+PODS:
+  - Apollo (0.36.0):
+    - Apollo/Core (= 0.36.0)
+  - Apollo/Core (0.36.0)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+
+DEPENDENCIES:
+  - Apollo
+  - MBProgressHUD (~> 1.2.0)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Apollo
+    - MBProgressHUD
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+
+PODFILE CHECKSUM: ed059bed01423c4169efcd4c099a30ddc38c4081
+
+COCOAPODS: 1.8.4
