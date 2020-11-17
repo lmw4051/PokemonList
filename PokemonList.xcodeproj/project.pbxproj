@@ -17,6 +17,7 @@
 		5438F5DD256403A200D12E18 /* PokemonList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5438F5DC256403A200D12E18 /* PokemonList.graphql */; };
 		5438F5DF2564041000D12E18 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438F5DE2564041000D12E18 /* API.swift */; };
 		5438F5E22564046800D12E18 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438F5E12564046800D12E18 /* Network.swift */; };
+		5438F5EE2564068200D12E18 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438F5ED2564068200D12E18 /* MainViewController.swift */; };
 		635E84D8140AA48E8919365A /* Pods_PokemonList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FCD5FD445D0E257E9DE598 /* Pods_PokemonList.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		5438F5DC256403A200D12E18 /* PokemonList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = PokemonList.graphql; sourceTree = "<group>"; };
 		5438F5DE2564041000D12E18 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		5438F5E12564046800D12E18 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		5438F5ED2564068200D12E18 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		682612B8706268CF206845CF /* Pods-PokemonList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonList.release.xcconfig"; path = "Target Support Files/Pods-PokemonList/Pods-PokemonList.release.xcconfig"; sourceTree = "<group>"; };
 		82FCD5FD445D0E257E9DE598 /* Pods_PokemonList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				5438F5E02564044500D12E18 /* GraphQL */,
+				5438F5EC2564067300D12E18 /* Controllers */,
 				5438F5C22563FE3000D12E18 /* AppDelegate.swift */,
 				5438F5C42563FE3000D12E18 /* SceneDelegate.swift */,
 				5438F5C62563FE3000D12E18 /* ViewController.swift */,
@@ -100,6 +103,14 @@
 				5438F5E12564046800D12E18 /* Network.swift */,
 			);
 			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		5438F5EC2564067300D12E18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5438F5ED2564068200D12E18 /* MainViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		839616E665A855A001580110 /* Pods */ = {
@@ -250,6 +261,7 @@
 				5438F5E22564046800D12E18 /* Network.swift in Sources */,
 				5438F5C72563FE3000D12E18 /* ViewController.swift in Sources */,
 				5438F5C32563FE3000D12E18 /* AppDelegate.swift in Sources */,
+				5438F5EE2564068200D12E18 /* MainViewController.swift in Sources */,
 				5438F5DF2564041000D12E18 /* API.swift in Sources */,
 				5438F5C52563FE3000D12E18 /* SceneDelegate.swift in Sources */,
 			);
