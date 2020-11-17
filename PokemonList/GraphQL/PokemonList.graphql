@@ -1,0 +1,8 @@
+# Write your query or mutation here
+query PokemonList {
+  pokemons(first: 20) {
+    number
+    name
+    image
+  }
+}
